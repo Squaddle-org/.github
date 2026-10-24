@@ -1,0 +1,10 @@
+name: Bug report
+description: Something doesn't work
+body:
+  - type: textarea
+    attributes: { label: What happened?, description: Steps to reproduce, expected vs. actual }
+    validations: { required: true }
+  - type: input
+    attributes: { label: Version / platform, placeholder: "android 0.1.0 (foss), Pixel 8, Android 15" }
+  - type: markdown
+    attributes: { value: "**Security issue?** Don't file it here — see SECURITY.md." }
